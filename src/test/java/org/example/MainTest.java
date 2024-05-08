@@ -1,26 +1,26 @@
 package org.example;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.*;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
-class MainTest {
+public class MainTest {
 
     @Test
-    void _min() {
+    public void _min() {
         assertEquals(1,Main._min(Main.read("numbers1.txt")));
 
     }
 
     @Test
-    void _max() {
+    public void _max() {
     }
 
     @Test
-    void _sum() {
+    public void _sum() {
     }
 
     @Test
-    void _mult() {
+    public void _mult() {
     }
 }
