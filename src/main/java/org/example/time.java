@@ -24,7 +24,7 @@ public class time {
     @Benchmark
     @BenchmarkMode(Mode.AverageTime)
     public void measure_max(){
-        Main._max(Main.read("test10.txt"));
+        Main._max(Main.read("timetest2.txt"));
 
     }
 }
